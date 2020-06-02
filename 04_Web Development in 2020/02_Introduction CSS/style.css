@@ -1,0 +1,32 @@
+/* Basic Structure of a CSS file (Cascading Style Sheets)
+
+Selector {
+	Property: value;
+}*/
+body {
+	background-image: url(backgroundImage2.jpg);
+	background-size: cover;
+}
+
+/*use this resource to find fitting color schemes https://paletton.com/
+*/
+h2 {
+	color: #AA4139;
+	text-align: center;
+	border: 5px solid rgba(255, 176, 170, 0.5); 
+	cursor: pointer;
+}
+
+p {
+	color:pink;
+}
+
+p {
+	color:green;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+#AA4139
